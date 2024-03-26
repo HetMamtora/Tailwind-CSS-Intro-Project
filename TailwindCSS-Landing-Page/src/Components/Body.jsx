@@ -2,7 +2,7 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div>
+    <div className='-space-y-4'>
       <div className='flex items-center justify-center'>
         <img src="./assets/Blue-Shape.svg" alt="1st" className='-rotate-45 h-64'/>
         <img src="./assets/Pink-Shape.svg" alt="2nd" className='absolute -rotate-[30deg] h-64'/>
@@ -18,9 +18,9 @@ const Body = () => {
           <button className='rounded-md px-4 py-3 bg-blue-400 hover:bg-blue-600 text-white'>Join With Us</button>
         </form>
 
-        <div>
+        <div className='flex gap-2'>
           <img src='./assets/Checkmark.svg' alt='check'/>
-          <p>No Scam, ever. Unsubscribe Anytime.</p>
+          <p className='font-lato text-gray-400'>No Scam, ever. Unsubscribe Anytime.</p>
         </div>
       </div>
     </div>
