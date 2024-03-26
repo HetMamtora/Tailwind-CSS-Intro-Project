@@ -4,7 +4,7 @@ import {FaXTwitter} from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-12'>
+    <div className='flex flex-col gap-12 md:flex-row md:justify-between'>
       <ul className='flex gap-6 font-lato text-white'>
         <li>
           <a href='#' className='flex gap-2 bg-black rounded-md px-2 py-2 w-32 justify-center'><p className='pb-1 mt-1'><FaGithub className='text-white'/></p>GitHub</a>
